@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.mycompany.medicarehospital.HospitalSystemTest" time="0.229" tests="25" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="25"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\zimel\OneDrive\Documents\NetBeansProjects\MediCareHospital\target\test-classes;C:\Users\zimel\OneDrive\Documents\NetBeansProjects\MediCareHospital\target\classes;C:\Users\zimel\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.10.3\junit-jupiter-api-5.10.3.jar;C:\Users\zimel\.m2\repository\org\junit\platform\junit-platform-commons\1.10.3\junit-platform-commons-1.10.3.jar;C:\Users\zimel\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\zimel\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.10.3\junit-jupiter-params-5.10.3.jar;C:\Users\zimel\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.10.3\junit-jupiter-engine-5.10.3.jar;C:\Users\zimel\.m2\repository\org\junit\platform\junit-platform-engine\1.10.3\junit-platform-engine-1.10.3.jar;C:\Users\zimel\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;"/>
+    <property name="java.vm.vendor" value="Eclipse Adoptium"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://adoptium.net/"/>
+    <property name="user.timezone" value="Africa/Johannesburg"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="25"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Apache NetBeans\jdk\bin"/>
+    <property name="sun.java.command" value="C:\Users\zimel\AppData\Local\Temp\surefire1130563152491315716\surefirebooter-20260824155624720_3.jar C:\Users\zimel\AppData\Local\Temp\surefire1130563152491315716 2026-08-24T15-56-24_387-jvmRun1 surefire-20260824155624720_1tmp surefire_0-20260824155624720_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="test" value="com.mycompany.medicarehospital.HospitalSystemTest"/>
+    <property name="surefire.test.class.path" value="C:\Users\zimel\OneDrive\Documents\NetBeansProjects\MediCareHospital\target\test-classes;C:\Users\zimel\OneDrive\Documents\NetBeansProjects\MediCareHospital\target\classes;C:\Users\zimel\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.10.3\junit-jupiter-api-5.10.3.jar;C:\Users\zimel\.m2\repository\org\junit\platform\junit-platform-commons\1.10.3\junit-platform-commons-1.10.3.jar;C:\Users\zimel\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\zimel\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.10.3\junit-jupiter-params-5.10.3.jar;C:\Users\zimel\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.10.3\junit-jupiter-engine-5.10.3.jar;C:\Users\zimel\.m2\repository\org\junit\platform\junit-platform-engine\1.10.3\junit-platform-engine-1.10.3.jar;C:\Users\zimel\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\zimel"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2026-01-20"/>
+    <property name="java.home" value="C:\Program Files\Apache NetBeans\jdk"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\zimel\OneDrive\Documents\NetBeansProjects\MediCareHospital"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\zimel\AppData\Local\Temp\surefire1130563152491315716\surefirebooter-20260824155624720_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="25.0.2+10-LTS"/>
+    <property name="user.name" value="zimel"/>
+    <property name="stdout.encoding" value="Cp1252"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Temurin-25.0.2+10"/>
+    <property name="maven.ext.class.path" value="C:\Program Files\Apache NetBeans\java\maven-nblib\netbeans-eventspy.jar"/>
+    <property name="localRepository" value="C:\Users\zimel\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/adoptium/adoptium-support/issues"/>
+    <property name="java.io.tmpdir" value="C:\Users\zimel\AppData\Local\Temp\"/>
+    <property name="java.version" value="25.0.2"/>
+    <property name="user.dir" value="C:\Users\zimel\OneDrive\Documents\NetBeansProjects\MediCareHospital"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Apache NetBeans\jdk\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Users\zimel\AppData\Local\Microsoft\WindowsApps;C:\ProgramData\zimel\GitHubDesktop\bin;C:\Program Files\Apache NetBeans\bin\;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="Cp1252"/>
+    <property name="java.vendor" value="Eclipse Adoptium"/>
+    <property name="java.vm.version" value="25.0.2+10-LTS"/>
+    <property name="stdin.encoding" value="Cp1252"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="69.0"/>
+  </properties>
+  <testcase name="testInvalidBedNumber" classname="com.mycompany.medicarehospital.HospitalSystemTest" time="0.057"/>
+  <testcase name="testHospitalSystemCreation" classname="com.mycompany.medicarehospital.HospitalSystemTest" time="0.005"/>
+  <testcase name="testDisplayEmptyOccupiedBeds" classname="com.mycompany.medicarehospital.HospitalSystemTest" time="0.007">
+    <system-out><![CDATA[
+===== OCCUPIED BEDS =====
+No occupied beds.
+]]></system-out>
+  </testcase>
+  <testcase name="testSearchPatientNotFound" classname="com.mycompany.medicarehospital.HospitalSystemTest" time="0.004"/>
+  <testcase name="testRegisterNullPatient" classname="com.mycompany.medicarehospital.HospitalSystemTest" time="0.003"/>
+  <testcase name="testSearchPatient" classname="com.mycompany.medicarehospital.HospitalSystemTest" time="0.002"/>
+  <testcase name="testGetPatients" classname="com.mycompany.medicarehospital.HospitalSystemTest" time="0.005"/>
+  <testcase name="testGetAvailableBedCount" classname="com.mycompany.medicarehospital.HospitalSystemTest" time="0.002"/>
+  <testcase name="testDisplayEmptyPatientList" classname="com.mycompany.medicarehospital.HospitalSystemTest" time="0.003">
+    <system-out><![CDATA[
+===== ALL PATIENTS =====
+No patients registered.
+]]></system-out>
+  </testcase>
+  <testcase name="testDisplayAvailableBeds" classname="com.mycompany.medicarehospital.HospitalSystemTest" time="0.004">
+    <system-out><![CDATA[
+===== AVAILABLE BEDS =====
+B01 B02 B03 B04 B05 B06 B07 B08 B09 B10 B11 B12 B13 B14 B15 B16 B17 B18 B19 B20 
+]]></system-out>
+  </testcase>
+  <testcase name="testBedCountAfterFailedAllocation" classname="com.mycompany.medicarehospital.HospitalSystemTest" time="0.002"/>
+  <testcase name="testDisplayOccupiedBeds" classname="com.mycompany.medicarehospital.HospitalSystemTest" time="0.003">
+    <system-out><![CDATA[
+===== OCCUPIED BEDS =====
+No occupied beds.
+]]></system-out>
+  </testcase>
+  <testcase name="testTotalBedCount" classname="com.mycompany.medicarehospital.HospitalSystemTest" time="0.002"/>
+  <testcase name="testUpdatePatient" classname="com.mycompany.medicarehospital.HospitalSystemTest" time="0.002"/>
+  <testcase name="testReleaseNonExistingPatient" classname="com.mycompany.medicarehospital.HospitalSystemTest" time="0.002"/>
+  <testcase name="testDeleteNonExistingPatient" classname="com.mycompany.medicarehospital.HospitalSystemTest" time="0.002"/>
+  <testcase name="testAllocateBed" classname="com.mycompany.medicarehospital.HospitalSystemTest" time="0.002"/>
+  <testcase name="testEmptyPatientList" classname="com.mycompany.medicarehospital.HospitalSystemTest" time="0.003"/>
+  <testcase name="testDisplayAllPatients" classname="com.mycompany.medicarehospital.HospitalSystemTest" time="0.003">
+    <system-out><![CDATA[
+===== ALL PATIENTS =====
+No patients registered.
+]]></system-out>
+  </testcase>
+  <testcase name="testDeletePatient" classname="com.mycompany.medicarehospital.HospitalSystemTest" time="0.002"/>
+  <testcase name="testGetOccupiedBedCount" classname="com.mycompany.medicarehospital.HospitalSystemTest" time="0.002"/>
+  <testcase name="testDisplayWardLayout" classname="com.mycompany.medicarehospital.HospitalSystemTest" time="0.005">
+    <system-out><![CDATA[
+===== WARD LAYOUT =====
+B01 [AVAILABLE]	B02 [AVAILABLE]	B03 [AVAILABLE]	B04 [AVAILABLE]	B05 [AVAILABLE]	
+B06 [AVAILABLE]	B07 [AVAILABLE]	B08 [AVAILABLE]	B09 [AVAILABLE]	B10 [AVAILABLE]	
+B11 [AVAILABLE]	B12 [AVAILABLE]	B13 [AVAILABLE]	B14 [AVAILABLE]	B15 [AVAILABLE]	
+B16 [AVAILABLE]	B17 [AVAILABLE]	B18 [AVAILABLE]	B19 [AVAILABLE]	B20 [AVAILABLE]	
+]]></system-out>
+  </testcase>
+  <testcase name="testDisplayReports" classname="com.mycompany.medicarehospital.HospitalSystemTest" time="0.005">
+    <system-out><![CDATA[
+===== HOSPITAL REPORT =====
+Total Patients: 0
+Occupied Beds: 0
+Available Beds: 20
+Ward Occupancy: 0.00%
+]]></system-out>
+  </testcase>
+  <testcase name="testAllocateBedToNonExistingPatient" classname="com.mycompany.medicarehospital.HospitalSystemTest" time="0.002"/>
+  <testcase name="testReleaseBed" classname="com.mycompany.medicarehospital.HospitalSystemTest" time="0.003"/>
+</testsuite>
